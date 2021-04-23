@@ -1,18 +1,19 @@
 function add(a, b) {
-  var a=504
-  var b=634
-  var number= a += b
+  var number = a+= b
   return number
 }
 
-function subtract() {
-  
+function subtract(a, b) {
+  var number = b -= a
+  return number
 }
 
-function multiply() {
-  
+function multiply(a, b) {
+  var number = a *= b
+  return number
 }
 
-function divide() {
-  
+function divide(a, b) {
+  var number = a/= b
+  return number
 }
