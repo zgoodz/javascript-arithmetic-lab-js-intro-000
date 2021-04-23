@@ -28,12 +28,12 @@ function decrement(n) {
   return n
 }
 
-function makeInt(n) {
-  parseInt(`n`, 10)
+function makeInt(string) {
+  parseInt(string, 10)
   return n
 }
 
-function preserveDecimal(n) {
-  parseFloat(`n`)
+function preserveDecimal(string) {
+  parseFloat(string)
   return n
 }
