@@ -4,7 +4,7 @@ function add(a, b) {
 }
 
 function subtract(a, b) {
-  var number = b -= a
+  var number = a -= b
   return number
 }
 
@@ -14,6 +14,6 @@ function multiply(a, b) {
 }
 
 function divide(a, b) {
-  var number = a/= b
+  var number = a /= b
   return number
 }
